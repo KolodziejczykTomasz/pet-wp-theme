@@ -8,6 +8,8 @@ function add_my_script() {
 }
 add_action( 'wp_enqueue_scripts', 'add_my_script' );
 add_action( 'wp_footer', 'my_footer_scripts' );
+
+
 function my_footer_scripts(){
   ?>
   <script>
